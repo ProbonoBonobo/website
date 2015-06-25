@@ -5,6 +5,7 @@ var config = require('./config'),
     compress = require('compression'),
     bodyParser = require('body-parser'),
     methodOverride = require('method-override');
+
 module.exports = function() {
 	var app = express();
 	if (process.env.NODE_ENV === 'development') {

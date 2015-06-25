@@ -6,7 +6,6 @@ exports.render = function(req, res) {
 	// req.session.lastVisit = new Date();
 
 	res.render('index', {
-		title: 'good day!',
-		body: 'my name is kevin zeidler and i\'m a web developer. i work primarily on the mean stack (MongoDB, Express, Angular.js, Node)'
+		title: 'good day!'
 	});
 };
